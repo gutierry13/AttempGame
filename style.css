@@ -1,0 +1,81 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  font-size: 62.5%;
+}
+.hide{
+  display: none;
+}
+body{
+  background: rgb(52,2,132);
+background: linear-gradient(230deg, rgba(52,2,132,0.38825448613376834) 0%, rgba(94,56,160,0.09135399673735722) 100%);
+  font-size: 1.6rem;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+main{
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  padding: 4.8rem 6.4rem;
+  width: min(44rem, 90%);
+  margin-top: -12rem;
+  text-align: center;
+}
+body,button,input,p{
+  font-family: 'Roboto',sans-serif;
+}
+h1{
+  font-family: 'Epilogue';
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+h1,p{
+  color:#343434;
+}
+input,button{
+  border: none;
+  padding: 1.6rem;
+  margin-top: 2.6rem;
+  cursor: pointer;
+  transition: background .5s;
+}
+button:hover{
+  background-color: #6532a8;
+}
+input{
+  background-color: #dce2e9;
+  width: 5rem;
+  border-radius: .4rem 0 0 .4rem ;
+ 
+}
+input:focus{
+  box-shadow: 1px 0 0 2;
+  outline:0;
+}
+button{
+  background-color: #9767d6;
+  color: #ffffff;
+  border-radius:  0 .4rem .4rem 0  ;
+}
+/*screen2*/
+.screen2 h1{
+  font-size: 2.4rem;
+  font-family: 400;
+  margin-bottom: 1.0rem;
+}
+.screen2 button{
+  border-radius: .6rem;
+}
+
